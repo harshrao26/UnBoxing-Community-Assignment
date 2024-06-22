@@ -1,9 +1,20 @@
 import React from "react";
-
+import Button from "./components/Button";
+import TopNav from "./components/TopNav";
+import SideNav from "./components/SideNav";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="relative">
+        <div className="">
+          <SideNav className="" />
+
+        </div>
+        <div>
+        <TopNav />
+
+        </div>
+      </div>
     </>
   );
 }
