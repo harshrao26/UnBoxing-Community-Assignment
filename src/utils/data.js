@@ -129,11 +129,11 @@ export const RepairServicesQuestionsData = [
 export const ReplacementQuestionsData = [
     {
         "id": 1,
-        "name": "How do I prevent screen burn-in on OLED and plasma in Sony A80L television?"
+        "name": "How do I update Sony A80L televisions firmware to fix issues?"
     },
     {
         "id": 2,
-        "name": "Should I consult Sony A80L television manufacturer before seeking the third-party repair?"
+        "name": "How do I factory reset Sony A80L television to its default settings?"
     },
     {
         "id": 3,

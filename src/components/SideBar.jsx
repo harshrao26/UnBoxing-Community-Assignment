@@ -4,7 +4,7 @@ import { SideBarData } from "../utils/data";
 
 const SideBar = () => {
   return (
-    <div className="flex flex-col rounded-lg bg-[#141416] w-[25%] gap-2 border-r-[#6f6f6f]  border-[1px] shadow-lg shadow-black  ">
+    <div className="flex flex-col rounded-lg bg-[#141416] w-[25%] gap-2 border-[#242425]  border-[2px] shadow-lg shadow-black  ">
       {SideBarData.map((item) => {
         return (
           <SideBarBox

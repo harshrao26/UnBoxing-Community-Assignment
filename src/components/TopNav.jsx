@@ -11,7 +11,7 @@ const TopNav = () => {
   };
   return (
     <>
-      <div className="flex bg-[#0D0D0D] justify-between items-center  px-4 py-4 left-20 border-b-[1px] border-zinc-800">
+      <div className="flex shadow-2xl shadow-black bg-[#0D0D0D] justify-between items-center  px-4 py-4 left-20 border-b-[1px] border-zinc-800">
         <div>
           <div className="text-[#f37413]  font-bold text-xl  flex text-left gap-1 items-center justify-center font-sans">
             <IoIosArrowBack />
