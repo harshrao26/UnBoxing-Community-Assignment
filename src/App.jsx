@@ -4,6 +4,9 @@ import TopNav from "./components/TopNav";
 import SideNav from "./components/SideNav";
 import TopBar from "./components/TopBar";
 import SideBar from "./components/SideBar";
+import Query from "./components/Query";
+import DottedButton from "./components/DottedButton";
+import QuerBoxContainer from "./components/QueryBoxContainer";
 function App() {
   return (
     <>
@@ -18,10 +21,16 @@ function App() {
           <div className=" mt-2">
             <TopBar />
           </div>
-          <div className="mt-2">
+          <div className="mt-2 flex  bg-[#141416] rounded-lg border-[#6f6f6f]  border-[1px] ">
             <SideBar />
+            <div className=" w-[75%] ml-2  ">
+              <Query />
+              <div className="mx-10">
+              <QuerBoxContainer />
+              </div>
+              <DottedButton />
+            </div>
           </div>
-
         </div>
       </div>
     </>

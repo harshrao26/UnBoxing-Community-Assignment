@@ -89,7 +89,7 @@ export const SideBarData = [
     }
 ]
 
-export const Query = [
+export const QueryData = [
     {
         "id": 1,
         "name": "Repair Servies"
@@ -104,10 +104,10 @@ export const Query = [
     },
 ]
 
-export const Qustions = [
+export const QuestionsData = [
     {
         "id": 1,
-        "name": "How do I update Sony A80L television’s firmware to fix issues?"
+        "name": "How do I update Sony A80L television firmware to fix issues?"
     },
     {
         "id": 2,
@@ -125,4 +125,4 @@ export const Qustions = [
         "id": 5,
         "name": "How do I transfer settings and data from my old televisions to new Sony A80L television? "
     },
-]
+];
