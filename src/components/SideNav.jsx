@@ -12,7 +12,7 @@ import img8 from "../assets/8.png";
 const SideNav = () => {
   return (
     <>
-      <div className="z-10 bg-[#0D0D0D] flex flex-col gap-16 justify-center items-center w-[5vw] border-r-[1px] border-zinc-800">
+      <div className="z-10  bg-[#0D0D0D] flex flex-col gap-16 justify-center items-center w-[5vw] border-r-[1px] border-zinc-800">
         <div>
           <img src={logo} alt="" className="mt-4 h-10" />
         </div>
@@ -24,7 +24,7 @@ const SideNav = () => {
           <img src={img5} alt="" className="w-5 h-5 hover:scale-125 transition-all ease-in-out"/>
           <img src={img6} alt="" className="w-5 h-5 hover:scale-125 transition-all ease-in-out"/>
         </div>
-        <div className="flex flex-col gap-8 justify-center items-center p-4">
+        <div className="mt-10 flex flex-col gap-8 justify-center items-center p-4">
         <img src={img7} alt="" className=" w-3  hover:scale-125 transition-all ease-in-out"/>
         <img src={img8} alt="" className="w-5   hover:scale-125 transition-all ease-in-out"/>
 

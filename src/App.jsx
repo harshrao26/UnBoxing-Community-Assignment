@@ -14,7 +14,7 @@ function App() {
         <div className="left w-[5%]">
           <SideNav />
         </div>
-        <div className="right w-[95%] mx-4">
+        <div className="right w-[95%] mx-4 ">
           <div className="">
             <TopNav />
           </div>
@@ -23,12 +23,16 @@ function App() {
           </div>
           <div className="mt-2 flex  bg-[#141416] rounded-lg border-[#6f6f6f]  border-[1px] ">
             <SideBar />
-            <div className=" w-[75%] ml-2  ">
+            <div className=" w-[75%] mx-8  ">
               <Query />
               <div className="mx-10">
-              <QuerBoxContainer />
+                {/* <QuerBoxContainer /> */}
               </div>
               <DottedButton />
+              <div className="flex justify-end mt-8 mr-10">
+              <Button name={"Add Asset"} />
+
+              </div>
             </div>
           </div>
         </div>

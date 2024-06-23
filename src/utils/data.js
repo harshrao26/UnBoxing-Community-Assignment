@@ -104,7 +104,7 @@ export const QueryData = [
     },
 ]
 
-export const QuestionsData = [
+export const RepairServicesQuestionsData = [
     {
         "id": 1,
         "name": "How do I update Sony A80L television firmware to fix issues?"
@@ -124,5 +124,49 @@ export const QuestionsData = [
     {
         "id": 5,
         "name": "How do I transfer settings and data from my old televisions to new Sony A80L television? "
+    },
+];
+export const ReplacementQuestionsData = [
+    {
+        "id": 1,
+        "name": "How do I prevent screen burn-in on OLED and plasma in Sony A80L television?"
+    },
+    {
+        "id": 2,
+        "name": "Should I consult Sony A80L television manufacturer before seeking the third-party repair?"
+    },
+    {
+        "id": 3,
+        "name": "How do I factory reset Sony A80L television to its default settings?"
+    },
+    {
+        "id": 4,
+        "name": "Should I consult Sony A80L television manufacturer before seeking the third-party repair?"
+    },
+    {
+        "id": 5,
+        "name": "How do I transfer settings and data from my old televisions to new Sony A80L television? "
+    },
+];
+export const SafetyQuestionsData = [
+    {
+        "id": 1,
+        "name": "How do I transfer settings and data from my old televisions to new Sony A80L television?"
+    },
+    {
+        "id": 2,
+        "name": "How do I prevent screen burn-in on OLED and plasma in Sony A80L television?"
+    },
+    {
+        "id": 3,
+        "name": "How do I factory reset Sony A80L television to its default settings?"
+    },
+    {
+        "id": 4,
+        "name": "Should I consult Sony A80L television manufacturer before seeking the third-party repair?"
+    },
+    {
+        "id": 5,
+        "name": "How do I update Sony A80L television firmware to fix issues? "
     },
 ];

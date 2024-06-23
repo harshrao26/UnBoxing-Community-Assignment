@@ -1,10 +1,10 @@
 import React from "react";
-import { QuestionsData } from "../utils/data";
+import { RepairServicesQuestionsData } from "../utils/data";
 import QueryBox from "./QueryBox";
 const QueryBoxContainer = () => {
   return (
     <div className="flex flex-col gap-2 mt-2">
-      {QuestionsData.map((item) => (
+      {RepairServicesQuestionsData.map((item) => (
         <div key={item.id} className="flex text-white">
           <div className=" my-2">
             {item.name}
