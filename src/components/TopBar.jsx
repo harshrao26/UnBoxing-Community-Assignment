@@ -4,7 +4,7 @@ import { TopBarData } from "../utils/data";
 
 function TopBar() {
   return (
-    <div className="mt-20  border-2 h-24 border-[#6f6f6f] flex items-center justify-center w-full mx-2 rounded-lg bg-[#141416]">
+    <div className=" border-[1px] h-24 border-[#6f6f6f] flex items-center justify-center   rounded-lg bg-[#141416]">
       {TopBarData.map((item, index) => (
         <React.Fragment key={index}>
           {index <= 6 ? (

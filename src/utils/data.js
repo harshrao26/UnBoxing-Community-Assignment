@@ -42,7 +42,7 @@ export const TopBarData = [
 ]
 
 
-export const SideNav = [
+export const SideBarData = [
     {
         "id": 1,
         "name": "Gallery"
