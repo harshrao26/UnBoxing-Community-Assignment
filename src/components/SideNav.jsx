@@ -12,7 +12,7 @@ import img8 from "../assets/8.png";
 const SideNav = () => {
   return (
     <>
-      <div className="z-10 flex flex-col gap-16 justify-center items-center w-[5vw] border-r-[1px] border-zinc-800">
+      <div className="z-10 bg-[#0D0D0D] flex flex-col gap-16 justify-center items-center w-[5vw] border-r-[1px] border-zinc-800">
         <div>
           <img src={logo} alt="" className="mt-4 h-10" />
         </div>

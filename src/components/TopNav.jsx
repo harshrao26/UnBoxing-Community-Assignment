@@ -11,7 +11,7 @@ const TopNav = () => {
   };
   return (
     <>
-      <div className="flex fixed justify-between items-center absolute top-0 px-4 py-4 left-20 w-[93vw] border-b-[1px] border-zinc-800">
+      <div className="flex bg-[#0D0D0D] justify-between items-center absolute top-0 px-4 py-4 left-20 w-[94vw] border-b-[1px] border-zinc-800">
         <div>
           <div className="text-[#f37413]  font-bold text-xl  flex text-left gap-1 items-center justify-center font-sans">
             <IoIosArrowBack />
@@ -28,7 +28,7 @@ const TopNav = () => {
             </div>
             <div className="flex gap-4 items-center ">
               <FiUser className="w-10 h-10 bg-white rounded-full p-2" />
-              <TiArrowSortedDown className="text-white"/>
+              <TiArrowSortedDown className="text-white" />
             </div>
           </div>
         </div>
