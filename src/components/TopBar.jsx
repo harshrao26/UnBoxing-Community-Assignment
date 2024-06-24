@@ -4,7 +4,7 @@ import { TopBarData } from "../utils/data";
 import flag from "../assets/flag.png";
 
 const TopBar = () => (
-  <div className="border border-[#242425] h-24 flex items-center justify-center rounded-lg bg-[#141416]">
+  <div className="border border-[#242425] h-auto md:h-24 flex flex-col md:flex-row items-center justify-center rounded-lg bg-[#141416] p-4 md:p-0">
     {TopBarData.map((item, index) => (
       <React.Fragment key={index}>
         {index <= 5 ? (
@@ -23,7 +23,7 @@ const TopBar = () => (
           <TopBarBox
             name={item.name}
             data={
-              <div className="w-[10vw] mb-8 bg-gray-700 h-2 rounded-full mx-8">
+              <div className="w-full md:w-[10vw] mb-4 md:mb-8 bg-gray-700 h-2 rounded-full mx-0 md:mx-8">
                 <div>
                   <div
                     className="bg-orange-500 h-2 rounded-full"
